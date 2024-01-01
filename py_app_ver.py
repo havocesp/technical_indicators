@@ -16,7 +16,7 @@ py_ver = py_ver.split('.')
 py_ver = str(py_ver[0] + '.' + py_ver[1])
 
 with open('ChangeLog.rst') as file_:
-    app_ver = file_.readline().split()[0]
+    app_ver = file_.readline(5_000_000).split()[0]
 
 with open('py_ver.txt', 'w') as file_:
     file_.write(py_ver)
