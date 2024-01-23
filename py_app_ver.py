@@ -4,10 +4,6 @@
 """
 Write Python and application version (from ChangeLog.rst) to text files.
 """
-
-# Python 3 compatibility
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
 import sys
 
 

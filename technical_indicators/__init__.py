@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """Initialization"""
-
-# Python 3 compatibility
-from __future__ import (absolute_import, division, print_function,
-                        #unicode_literals
-                        )
 # The above unicode_literals import prevents setup.py from working.
 # It seems to be a bug in setuptools.
 # py2exe build also does not work if it is unremarked.
