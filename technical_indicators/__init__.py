@@ -28,7 +28,7 @@ VERSION = '0.0.0'
 CHANGE_LOG_FILE = 'ChangeLog.txt'
 if path.isfile(CHANGE_LOG_FILE):  # if file exists
     with open(CHANGE_LOG_FILE) as f:
-        VERSION = f.readline().split()[0]
+        VERSION = f.readline(5_000_000).split()[0]
 
 LONG_DESC = DESC = ''
 README_FILE = 'README.txt'
