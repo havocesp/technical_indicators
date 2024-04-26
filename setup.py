@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """Setup for source, egg, wheel and py2exe"""
-
-# Python 3 compatibility
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
 import sys
 from os import path
 from setuptools import setup, find_packages

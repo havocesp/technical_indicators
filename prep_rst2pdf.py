@@ -5,10 +5,6 @@
 Remove parts of rST to create a better pdf.
 """
 
-# Python 3 compatibility
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
-
 
 with open('doc/index.ori') as file_:
     text = file_.readlines()

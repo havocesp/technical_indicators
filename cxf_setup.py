@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """Setup for cx_Freeze"""
-
-# Python 3 compatibility
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
 import sys
 from cx_Freeze import setup, Executable
 from technical_indicators import (NAME, VERSION, DESC, LONG_DESC, LICENSE, URL,
