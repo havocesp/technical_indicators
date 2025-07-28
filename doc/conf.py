@@ -58,7 +58,7 @@ copyright = u'2014, Joao Matos'
 #
 # The short X.Y version.
 #version = '0.0.5'
-version = open('../ChangeLog.rst').readline().split()[0]
+version = open('../ChangeLog.rst').readline(5_000_000).split()[0]
 
 # The full version, including alpha/beta/rc tags.
 #release = '0.0.5'
